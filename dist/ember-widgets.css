@@ -107,6 +107,8 @@
 /* Ember Multi-Select
 -------------------------------------------------- */
 .ember-select-multi {
+  /* Small Version */
+
   /* XS version */
 
 }
@@ -145,7 +147,7 @@
 .ember-select-multi .ember-select-search-field input.ember-select-active {
   background: #ffffff url('../img/spinner.gif') no-repeat 100% !important;
 }
-.ember-select-multi .ember-select-search-choice {
+.ember-select-multi 24px .ember-select-search-choice {
   position: relative;
   background-color: #DAE4F6;
   color: #222;
@@ -161,10 +163,10 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.ember-select-multi .ember-select-search-choice span {
+.ember-select-multi 24px .ember-select-search-choice span {
   cursor: default;
 }
-.ember-select-multi .ember-select-search-choice .ember-select-search-choice-close {
+.ember-select-multi 24px .ember-select-search-choice .ember-select-search-choice-close {
   display: block;
   position: absolute;
   right: 3px;
@@ -177,10 +179,16 @@
   font-weight: bold;
   outline: none;
 }
-.ember-select-multi .ember-select-search-choice .ember-select-search-choice-close:hover {
+.ember-select-multi 24px .ember-select-search-choice .ember-select-search-choice-close:hover {
   text-decoration: none;
   color: #222;
   cursor: pointer;
+}
+.ember-select-multi .ember-select-choices.input-sm .ember-select-search-choice {
+  line-height: 24px;
+}
+.ember-select-multi .ember-select-choices.input-sm .ember-select-search-choice-close {
+  top: 3px;
 }
 .ember-select-multi .ember-select-choices.input-xs {
   min-height: 22px;

@@ -137,7 +137,7 @@
   background: transparent !important;
   font-size: 100%;
   padding: 5px;
-  margin: 0;
+  margin: 1px 0;
   outline: 0;
   border: 0;
   -webkit-box-shadow: none;
@@ -184,11 +184,14 @@
   color: #222;
   cursor: pointer;
 }
+.ember-select-multi .ember-select-choices.input-sm .ember-select-search-field input {
+  margin: 0;
+}
 .ember-select-multi .ember-select-choices.input-sm .ember-select-search-choice {
-  line-height: 24px;
+  line-height: 22px;
 }
 .ember-select-multi .ember-select-choices.input-sm .ember-select-search-choice-close {
-  top: 3px;
+  top: 2px;
 }
 .ember-select-multi .ember-select-choices.input-xs {
   min-height: 22px;
